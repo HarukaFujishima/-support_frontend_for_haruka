@@ -1,0 +1,17 @@
+html {
+	font-size: 62.5%;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $font-family-jp;
+	color: $color-text;
+	line-height: 1.48;
+	background: $color-background;
+  font-size: 1.6rem;
+}
