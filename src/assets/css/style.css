@@ -430,7 +430,7 @@ img {
 .l-header {
   background: #FFFFFF;
   height: 80px;
-  box-shadow: 0 4px 4px #7EC6CB, 25%; }
+  box-shadow: 0 4px 4px 0 rgba(126, 198, 203, 0.25); }
 
 .l-header__inner {
   display: flex;
@@ -450,7 +450,8 @@ img {
   display: flex; }
 
 .c-header__nav-item {
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 1.8rem; }
 
 .c-header__nav-link {
   padding: 10px 0; }
