@@ -3,14 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <meta name="description" content="Enclass+のメンバー一覧ページです。">
+  <title>Member | Enclass+</title>
+  <meta name="description" content="Enclass+のメンバー一覧ページです。名前や職種、趣味などを紹介してます。">
+  <!-- favicon -->
+  <link rel="icon" href="/src/assets/img/enclass_logo.svg">
   <!-- css -->
   <link rel="stylesheet" href="./css/style.min.css">
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header class="l-header">
+    <div class="l-header__inner l-inner">
+      <h1 class="c-header__logo">
+        <a href="/"><img src="/src/assets/img/enclass_logo.svg" alt="Enclassロゴ">
+        </a>
+      </h1>
+      <nav class="c-header__nav">
+        <ul class="c-header__nav-items">
+          <li class="c-header__nav-item"><a href="#" class="u-py-10">Engineer</a></li>
+          <li class="c-header__nav-item u-ml-32"><a href="#" class="u-py-10">Designer</a></li>
+          <li class="c-header__nav-item u-ml-32"><a href="#" class="u-py-10">Director</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- /.header -->
+  <main class="main">
+    <div class="c-member l-inner">
+      <div class="c-heading">
+        <h2 class="c-heading__title">Member</h2>
+        <p class="c-heading__text">Enclass+のメンバー一覧ページです。メンバー名、職種、趣味などを記載してます。</p>
+      </div>
+      <!-- /.c-heading -->
+      <div class="c-member">
+        <div class="c-member__engineer">
+          <h3 class="c-member__title">Engineer</h3>
+          <ul class="c-member__list">
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+          </ul>
+        </div>
+        <!-- /.c-member__designer -->
+        <div class="c-member__designer">
+          <h3 class="c-member__title">Designer</h3>
+          <ul class="c-member__list">
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+            <li class="c-card"></li>
+          </ul>
+        </div>
+        <!-- /.c-member__designer -->
+        <div class="c-member__director">
+          <h3 class="c-member__title">Director</h3>
+          <ul class="c-member__list">
+            <li class="c-card">
+              <a href="#">
+                <div class="c-card__img">
+                  <picture>
+                    <source type="image/webp" srcset="/assets/images/sample-sp.webp" media="(min-width: 767px)">
+                    <source type="image/jpeg" srcset="/assets/images/sample-sp.jpg" media="(min-width: 767px)">
+                    <source type="image/webp" srcset="/assets/images/sample.webp">
+                    <img src="/assets/images/sample.jpg" alt="">
+                  </picture>
+                </div>
+                <div class="c-card__body">
+                  <div class="c-card__name">Dearhero</div>
+                  <div class="c-card__text">Backend Enginner</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.c-member__director -->
+      </div>
+    </div>
+  </main>
+  <!-- /.main -->
+
+  <footer class="footer"></footer>
+  <!-- /.footer -->
 </body>
 </html>
