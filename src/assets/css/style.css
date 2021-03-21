@@ -411,11 +411,6 @@ template {
 html {
   font-size: 62.5%; }
 
-html,
-body {
-  margin: 0;
-  padding: 0; }
-
 body {
   font-family: "Noto Sans CJK JP", sans-serif;
   color: #1A1D21;
