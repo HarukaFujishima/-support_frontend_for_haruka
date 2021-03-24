@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -451,14 +452,16 @@ img {
 
 .c-header__nav-item {
   font-weight: 700;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+  letter-spacing: 0.01em; }
 
 .c-header__nav-link {
   padding: 10px 0; }
 
 .c-heading__title {
   font-size: 4rem;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: .04em; }
 
 .c-heading__text {
   color: #808287; }
@@ -475,7 +478,7 @@ img {
   width: calc(33.3333333% - 24px * 2 / 3);
   margin-right: 24px;
   background: #FFFFFF;
-  margin-top: 40px; }
+  border-radius: 7px; }
 
 .c-card:nth-child(3n) {
   margin-right: 0; }
@@ -488,6 +491,18 @@ img {
   width: 102px;
   height: 102px;
   margin: 0 auto; }
+
+.c-card__body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.17214; }
+
+.c-card__name {
+  font-weight: 700;
+  font-size: 2rem; }
+
+.c-card__text {
+  font-size: 1.4rem;
+  color: #484A4D; }
 
 /* margin
 -------------------------------------------------------------- */
