@@ -1,4 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), url("/src/assets/font/roboto-v20-latin-regular.woff2") format("woff2"); }
+
+/* noto-sans-jp-regular - latin */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans JP"), url("/src/assets/font/noto-sans-jp-v28-latin-regular.woff2") format("woff2"); }
+
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -413,7 +425,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Noto Sans CJK JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   color: #1A1D21;
   line-height: 1.48;
   background: #EFF0F4;
@@ -453,7 +465,7 @@ img {
 .c-header__nav-item {
   font-weight: 700;
   font-size: 1.8rem;
-  letter-spacing: 0.01em; }
+  letter-spacing: .01em; }
 
 .c-header__nav-link {
   padding: 10px 0; }
@@ -479,9 +491,8 @@ img {
   margin-right: 24px;
   background: #FFFFFF;
   border-radius: 7px; }
-
-.c-card:nth-child(3n) {
-  margin-right: 0; }
+  .c-card:nth-child(3n) {
+    margin-right: 0; }
 
 .c-card__wrap {
   padding: 24px 0;
@@ -643,5 +654,11 @@ img {
 
 .u-py-10 {
   padding: 10px 0; }
+
+.u-hover-opacity {
+  transition: all 0.3s ease 0s;
+  opacity: 1; }
+  .u-hover-opacity:hover {
+    opacity: .7; }
 
 /*# sourceMappingURL=style.css.map */

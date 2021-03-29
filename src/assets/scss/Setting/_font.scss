@@ -1,4 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'),
+  url('/src/assets/font/roboto-v20-latin-regular.woff2') format('woff2')
+}
 
-$font-family-jp: "Noto Sans CJK JP", sans-serif;
+/* noto-sans-jp-regular - latin */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans JP'),
+  url('/src/assets/font/noto-sans-jp-v28-latin-regular.woff2') format('woff2')
+}
+
+
+$font-family-jp: "Noto Sans JP", sans-serif;
 $font-family-en: "Roboto", sans-serif;
