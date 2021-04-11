@@ -475,9 +475,7 @@ img {
   padding: 10px 0; }
 
 .c-footer {
-  color: #FFFFFF; }
-
-.c-footer {
+  color: #FFFFFF;
   display: flex;
   justify-content: space-between; }
 
@@ -562,9 +560,6 @@ img {
 
 .u-mt-26 {
   margin-top: 26px; }
-
-.u-mt-25 {
-  margin-top: 25px; }
 
 .u-mt-32 {
   margin-top: 32px; }
