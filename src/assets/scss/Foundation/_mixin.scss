@@ -1,6 +1,6 @@
 //マップ型変数breakpoints
 $breakpoints: (
-  'sm': 'screen and (man-width: 767px)',
+  'sm': 'screen and (max-width: 767px)',
   'md': 'screen and (min-width: 768px)',
 ) !default;
 

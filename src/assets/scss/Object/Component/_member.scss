@@ -1,6 +1,18 @@
+.c-member {
+  margin-top: 64px;
+
+  @include mq ('sm') {
+    margin-top: 72px;
+  }
+}
+
 .c-member__title {
   font-weight: 700;
   font-size: 2.8rem;
+
+  @include mq ('sm') {
+    font-size: 2.4rem;
+  }
 }
 
 .c-member__list {

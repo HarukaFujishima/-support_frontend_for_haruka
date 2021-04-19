@@ -1,20 +1,10 @@
-@import "Setting/font";
-@import "Setting/color";
+@import "Setting/**";
 
 @import "Foundation/reset";
 @import "Foundation/base";
 @import "Foundation/mixin";
+@import "Foundation/function";
 
-@import "Layout/header";
-@import "Layout/main";
-@import "Layout/footer";
-@import "Layout/inner";
-
-@import "Object/Component/header";
-@import "Object/Component/footer";
-@import "Object/Component/heading";
-@import "Object/Component/member";
-@import "Object/Component/card";
-
-@import "Object/Utility/space";
-@import "Object/Utility/hover";
+@import "Layout/**";
+@import "Object/Component/**";
+@import "Object/Utility/**";

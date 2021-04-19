@@ -1,0 +1,10 @@
+.l-main__member {
+  max-width: 960px;
+  margin: 0 auto;
+  margin-top: 80px;
+
+  @include mq ('sm') {
+    width: 327px;
+    margin-top: 56px;
+  }
+}
