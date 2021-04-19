@@ -9,7 +9,7 @@
     "all": "run-p server watch:css",
     "css:scss": "node-sass src/assets/scss/style.scss -o src/assets/css --source-map src/assets/css",
     "css:postcss": "postcss src/assets/css/style.css -o src/assets/css/style.min.css",
-    "watch:css": "watch 'run-s css:scss css:postcss' ./src/assets/scss",
+    "watch:css": "watch \"run-s css:scss css:postcss\" ./src/assets/scss",
     "server": "browser-sync start --server --files='src/assets/*.html, src/assets/css/*.css, src/assets/js/*.js' --startPath='src/assets/'"
   },
   "author": "haruka",
