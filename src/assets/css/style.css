@@ -2,14 +2,14 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: local("Roboto"), url("/src/assets/font/roboto-v20-latin-regular.woff2") format("woff2"); }
+  src: local("Roboto"), url("../font/roboto-v20-latin-regular.woff2") format("woff2"); }
 
 /* noto-sans-jp-regular - latin */
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
-  src: local("Noto Sans JP"), url("/src/assets/font/noto-sans-jp-v28-latin-regular.woff2") format("woff2"); }
+  src: local("Noto Sans JP"), url("../font/noto-sans-jp-v28-latin-regular.woff2") format("woff2"); }
 
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
