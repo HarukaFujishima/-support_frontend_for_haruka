@@ -17,6 +17,9 @@
 
 .c-member__list {
   display: flex;
-  flex-wrap: wrap;
+
+  @include mq ('md') {
+    flex-wrap: wrap;
+  }
 }
 

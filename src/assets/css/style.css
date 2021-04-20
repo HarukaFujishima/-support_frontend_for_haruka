@@ -476,12 +476,14 @@ img {
       margin-top: 56px; } }
 
 .c-card {
-  width: calc(33.3333333% - 24px * 2 / 3);
   margin-right: 24px;
   background: #FFFFFF;
   border-radius: 7px; }
-  .c-card:nth-child(3n) {
-    margin-right: 0; }
+  @media screen and (min-width: 768px) {
+    .c-card {
+      width: calc(33.3333333% - 24px * 2 / 3); }
+      .c-card:nth-child(3n) {
+        margin-right: 0; } }
 
 .c-card__wrap {
   padding: 24px 0;
@@ -582,8 +584,10 @@ img {
       font-size: 2.4rem; } }
 
 .c-member__list {
-  display: flex;
-  flex-wrap: wrap; }
+  display: flex; }
+  @media screen and (min-width: 768px) {
+    .c-member__list {
+      flex-wrap: wrap; } }
 
 .u-hover-opacity {
   transition: all 0.3s ease 0s;
