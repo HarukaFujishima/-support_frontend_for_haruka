@@ -3,7 +3,7 @@
   background: $color-white;
   border-radius: 7px;
 
-  @include mq ('md') {
+  @include mq (pc) {
     width: calc(33.3333333% - 24px * 2 / 3);
 
     &:nth-child(3n) {

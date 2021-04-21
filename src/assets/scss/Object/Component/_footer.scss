@@ -1,19 +1,19 @@
 .c-footer {
   color: $color-white;
 
-  @include mq ('md') {
+  @include mq (pc) {
     display: flex;
     justify-content: space-between;
   }
 
-  @include mq ('sm') {
+  @include mq (sm) {
     display: flex;
     flex-flow: column;
   }
 }
 
 .c-footer__logo {
-  @include mq ('sm') {
+  @include mq (sm) {
     order: 2;
     margin-top: 64px;
   }
@@ -27,7 +27,7 @@
 .c-footer__nav {
   display: flex;
 
-  @include mq ('sm') {
+  @include mq (sm) {
     order: 1;
   }
 }

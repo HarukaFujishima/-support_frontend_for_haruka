@@ -1,7 +1,7 @@
 .c-member {
   margin-top: 64px;
 
-  @include mq ('sm') {
+  @include mq (sm) {
     margin-top: 72px;
   }
 }
@@ -10,7 +10,7 @@
   font-weight: 700;
   font-size: 2.8rem;
 
-  @include mq ('sm') {
+  @include mq (sm) {
     font-size: 2.4rem;
   }
 }
@@ -18,7 +18,7 @@
 .c-member__list {
   display: flex;
 
-  @include mq ('md') {
+  @include mq (pc) {
     flex-wrap: wrap;
   }
 }
