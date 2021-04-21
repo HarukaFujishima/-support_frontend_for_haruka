@@ -2,8 +2,18 @@
   font-size: 4rem;
   font-weight: 700;
   letter-spacing: .04em;
+
+  @include mq (sm) {
+    font-size: 3.2rem;
+    letter-spacing: .07em;
+  }
 }
 
 .c-heading__text {
   color: $color-subtext-gray;
+  margin-top: 16px;
+
+  @include mq (sm) {
+    margin-top: 18px;
+  }
 }
