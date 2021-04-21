@@ -3,7 +3,7 @@
   margin: 0 auto;
   margin-top: 80px;
 
-  @include mq (sm) {
+  @include mq (sp) {
     width: 327px;
     margin-top: 56px;
   }

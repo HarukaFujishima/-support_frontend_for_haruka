@@ -478,16 +478,24 @@ img {
 .c-card {
   margin-right: 24px;
   background: #FFFFFF;
-  border-radius: 7px; }
+  border-radius: 7px;
+  margin-top: 40px; }
   @media screen and (min-width: 768px) {
     .c-card {
       width: calc(33.3333333% - 24px * 2 / 3); }
       .c-card:nth-child(3n) {
         margin-right: 0; } }
+  @media screen and (max-width: 767px) {
+    .c-card {
+      min-width: 200px;
+      margin-top: 28px; } }
 
 .c-card__wrap {
   padding: 24px 0;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .c-card__wrap {
+      padding: 38px 0; } }
 
 .c-card__img {
   max-width: 102px;
@@ -571,7 +579,7 @@ img {
       margin-top: 18px; } }
 
 .c-member {
-  margin-top: 64px; }
+  margin-top: 80px; }
   @media screen and (max-width: 767px) {
     .c-member {
       margin-top: 72px; } }
@@ -588,6 +596,13 @@ img {
   @media screen and (min-width: 768px) {
     .c-member__list {
       flex-wrap: wrap; } }
+  @media screen and (max-width: 767px) {
+    .c-member__list {
+      overflow: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none; }
+      .c-member__list::-webkit-scrollbar {
+        display: none; } }
 
 .u-hover-opacity {
   transition: all 0.3s ease 0s;

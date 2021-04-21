@@ -6,14 +6,14 @@
     justify-content: space-between;
   }
 
-  @include mq (sm) {
+  @include mq (sp) {
     display: flex;
     flex-flow: column;
   }
 }
 
 .c-footer__logo {
-  @include mq (sm) {
+  @include mq (sp) {
     order: 2;
     margin-top: 64px;
   }
@@ -27,7 +27,7 @@
 .c-footer__nav {
   display: flex;
 
-  @include mq (sm) {
+  @include mq (sp) {
     order: 1;
   }
 }
