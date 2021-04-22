@@ -4,23 +4,25 @@
   @include mq (sp) {
     margin-top: 72px;
   }
-}
 
-.c-member.c-member--designer {
-  margin-top: 78px;
+  .c-member--designer {
+    margin-top: 78px;
 
-  @include mq (sp) {
-    margin-top: 56px;
+    @include mq (sp) {
+      margin-top: 56px;
+    }
+  }
+  
+  .c-member--director {
+    margin-top: 80px;
+
+    @include mq (sp) {
+      margin-top: 56px;
+    }
   }
 }
 
-.c-member.c-member--director {
-  margin-top: 80px;
 
-  @include mq (sp) {
-    margin-top: 56px;
-  }
-}
 
 .c-member__title {
   font-weight: 700;
