@@ -3,38 +3,52 @@
 
   @include mq (pc) {
     display: flex;
-    justify-content: space-between;
   }
 
   @include mq (sp) {
     display: flex;
     flex-flow: column;
+    padding-bottom: 40px;
   }
 }
 
 .c-footer__logo {
   @include mq (sp) {
     order: 2;
-    margin-top: 64px;
+    margin-top: 70px;
+    width: 40px;
   }
 }
 
 .c-footer__copyright {
   font-size: 1.4rem;
   letter-spacing: .01em;
+  white-space: nowrap;
 }
 
 .c-footer__nav {
   display: flex;
+
+  @include mq (pc) {
+    margin-left: 740px;
+  }
 
   @include mq (sp) {
     order: 1;
   }
 }
 
+.c-footer__nav-box.c-footer__nav-box--right {
+  margin-left: 30px;
+}
+
 .c-footer__nav-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
+
+  @include mq (sp) {
+    margin-left: 4px;
+  }
 }
 
 .c-footer__nav-item {
