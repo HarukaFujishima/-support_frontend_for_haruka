@@ -30,7 +30,8 @@
   display: flex;
 
   @include mq (pc) {
-    margin-left: 740px;
+    margin-left: auto;
+    padding-right: 4px;
   }
 
   @include mq (sp) {

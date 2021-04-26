@@ -543,7 +543,8 @@ small {
   display: flex; }
   @media screen and (min-width: 768px) {
     .c-footer__nav {
-      margin-left: 740px; } }
+      margin-left: auto;
+      padding-right: 4px; } }
   @media screen and (max-width: 767px) {
     .c-footer__nav {
       order: 1; } }
