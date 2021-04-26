@@ -1,10 +1,28 @@
 .c-member {
-  margin-top: 80px;
+  margin-top: 64px;
 
   @include mq (sp) {
     margin-top: 72px;
   }
+
+  .c-member--designer {
+    margin-top: 78px;
+
+    @include mq (sp) {
+      margin-top: 56px;
+    }
+  }
+  
+  .c-member--director {
+    margin-top: 80px;
+
+    @include mq (sp) {
+      margin-top: 56px;
+    }
+  }
 }
+
+
 
 .c-member__title {
   font-weight: 700;
@@ -23,6 +41,7 @@
   }
 
   @include mq (sp) {
+    width: 93vw;
     overflow: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;

@@ -1,10 +1,10 @@
 .l-main__member {
   max-width: 960px;
-  margin: 0 auto;
-  margin-top: 80px;
+  margin: 80px auto 120px;
 
   @include mq (sp) {
     width: 327px;
     margin-top: 56px;
+    margin-bottom: 112px;
   }
 }
