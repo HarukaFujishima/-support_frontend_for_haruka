@@ -10,7 +10,7 @@
 .u-hover-card {
 
   &:hover {
-    background: #FBFCFF;
-    border: solid 1px #D8E5FD;
+    background: $hovcolor-background-lightblue;
+    border: solid 1px $hovcolor-border-lightblue;
   }
 }
