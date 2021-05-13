@@ -6,6 +6,8 @@
 
   @include mq (pc) {
     width: calc(33.3333333% - 24px * 2 / 3);
+    height: 212px;
+    box-sizing: border-box;
 
     &:nth-child(3n) {
       margin-right: 0;

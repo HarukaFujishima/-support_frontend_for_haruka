@@ -6,3 +6,11 @@
     opacity: .7;
   }
 }
+
+.u-hover-card {
+
+  &:hover {
+    background: $hovcolor-background-lightblue;
+    border: solid 1px $hovcolor-border-lightblue;
+  }
+}

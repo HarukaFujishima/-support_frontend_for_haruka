@@ -6,6 +6,15 @@
   url('../font/roboto-v20-latin-regular.woff2') format('woff2')
 }
 
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../font/roboto-v27-latin-700.woff2') format('woff2')
+}
+
 /* noto-sans-jp-regular - latin */
 @font-face {
   font-family: 'Noto Sans JP';
@@ -13,6 +22,15 @@
   font-weight: 400;
   src: local('Noto Sans JP'),
   url('../font/noto-sans-jp-v28-latin-regular.woff2') format('woff2')
+}
+
+/* noto-sans-jp-700 - latin */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../font/noto-sans-jp-v28-latin-700.woff2') format('woff2')
 }
 
 

@@ -46,10 +46,6 @@
 .c-footer__nav-title {
   font-size: 2rem;
   font-weight: 700;
-
-  @include mq (sp) {
-    margin-left: 4px;
-  }
 }
 
 .c-footer__nav-item {

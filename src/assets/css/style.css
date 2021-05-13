@@ -4,12 +4,26 @@
   font-weight: 400;
   src: local("Roboto"), url("../font/roboto-v20-latin-regular.woff2") format("woff2"); }
 
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../font/roboto-v27-latin-700.woff2") format("woff2"); }
+
 /* noto-sans-jp-regular - latin */
 @font-face {
   font-family: 'Noto Sans JP';
   font-style: normal;
   font-weight: 400;
   src: local("Noto Sans JP"), url("../font/noto-sans-jp-v28-latin-regular.woff2") format("woff2"); }
+
+/* noto-sans-jp-700 - latin */
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../font/noto-sans-jp-v28-latin-700.woff2") format("woff2"); }
 
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
@@ -463,20 +477,22 @@ small {
   height: 100%; }
 
 .l-inner {
-  max-width: 1080px;
+  max-width: 1160px;
+  padding: 0 40px;
   margin: 0 auto; }
   @media screen and (max-width: 767px) {
     .l-inner {
-      width: 327px; } }
+      padding: 0 24px; } }
 
 .l-main__member {
-  max-width: 960px;
-  margin: 80px auto 120px; }
+  max-width: 1040px;
+  margin: 80px auto 120px;
+  padding: 0 40px; }
   @media screen and (max-width: 767px) {
     .l-main__member {
-      width: 327px;
       margin-top: 56px;
-      margin-bottom: 112px; } }
+      margin-bottom: 112px;
+      padding: 0 24px; } }
 
 .c-card {
   margin-right: 24px;
@@ -485,7 +501,9 @@ small {
   margin-top: 40px; }
   @media screen and (min-width: 768px) {
     .c-card {
-      width: calc(33.3333333% - 24px * 2 / 3); }
+      width: calc(33.3333333% - 24px * 2 / 3);
+      height: 212px;
+      box-sizing: border-box; }
       .c-card:nth-child(3n) {
         margin-right: 0; } }
   @media screen and (max-width: 767px) {
@@ -555,9 +573,6 @@ small {
 .c-footer__nav-title {
   font-size: 2rem;
   font-weight: 700; }
-  @media screen and (max-width: 767px) {
-    .c-footer__nav-title {
-      margin-left: 4px; } }
 
 .c-footer__nav-item {
   letter-spacing: .01em; }
@@ -623,10 +638,11 @@ small {
       flex-wrap: wrap; } }
   @media screen and (max-width: 767px) {
     .c-member__list {
-      width: 93vw;
       overflow: scroll;
       -ms-overflow-style: none;
-      scrollbar-width: none; }
+      scrollbar-width: none;
+      margin: 0 calc(50% - 50vw);
+      padding-left: 24px; }
       .c-member__list::-webkit-scrollbar {
         display: none; } }
 
@@ -635,6 +651,10 @@ small {
   opacity: 1; }
   .u-hover-opacity:hover {
     opacity: .7; }
+
+.u-hover-card:hover {
+  background: #FBFCFF;
+  border: solid 1px #D8E5FD; }
 
 /* margin
 -------------------------------------------------------------- */
