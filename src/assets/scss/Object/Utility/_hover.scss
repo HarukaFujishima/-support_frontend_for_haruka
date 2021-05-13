@@ -6,3 +6,11 @@
     opacity: .7;
   }
 }
+
+.u-hover-card {
+
+  &:hover {
+    background: #FBFCFF;
+    border: solid 1px #D8E5FD;
+  }
+}

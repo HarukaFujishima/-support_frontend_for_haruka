@@ -1,8 +1,9 @@
 .l-inner {
-  max-width: 1080px;
-  margin: 0 auto;
-
+  max-width: 1160px;
+    padding: 0 40px;
+    margin: 0 auto;
+    
   @include mq (sp) {
-    width: 327px;
+    padding: 0 24px;
   }
 }
