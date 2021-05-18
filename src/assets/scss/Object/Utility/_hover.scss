@@ -9,6 +9,8 @@
 
 .u-hover-card {
 
+  transition: all 0.3s ease 0s;
+  
   &:hover {
     background: $hovcolor-background-lightblue;
     border: solid 1px $hovcolor-border-lightblue;

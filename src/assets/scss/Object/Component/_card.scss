@@ -3,6 +3,7 @@
   background: $color-white;
   border-radius: 7px;
   margin-top: 40px;
+  border: 1px solid transparent;
 
   @include mq (pc) {
     width: calc(33.3333333% - 24px * 2 / 3);

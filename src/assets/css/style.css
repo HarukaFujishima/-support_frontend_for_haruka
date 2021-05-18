@@ -498,7 +498,8 @@ small {
   margin-right: 24px;
   background: #FFFFFF;
   border-radius: 7px;
-  margin-top: 40px; }
+  margin-top: 40px;
+  border: 1px solid transparent; }
   @media screen and (min-width: 768px) {
     .c-card {
       width: calc(33.3333333% - 24px * 2 / 3);
@@ -652,9 +653,11 @@ small {
   .u-hover-opacity:hover {
     opacity: .7; }
 
-.u-hover-card:hover {
-  background: #FBFCFF;
-  border: solid 1px #D8E5FD; }
+.u-hover-card {
+  transition: all 0.3s ease 0s; }
+  .u-hover-card:hover {
+    background: #FBFCFF;
+    border: solid 1px #D8E5FD; }
 
 /* margin
 -------------------------------------------------------------- */
